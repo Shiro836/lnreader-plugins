@@ -1,0 +1,11 @@
+[
+	{
+		"id": "llm-translator",
+		"name": "LLM Translator",
+		"site": "https://novels.forsen.fun",
+		"lang": "Русский",
+		"version": "1.0.0",
+		"url": "https://raw.githubusercontent.com/Shiro836/lnreader-plugins/plugins/v3.0.0/.js/src/plugins/russian/llmtranslator.js",
+		"iconUrl": "https://raw.githubusercontent.com/Shiro836/lnreader-plugins/plugins/v3.0.0/public/static/src/ru/llmtranslator/icon.png"
+	}
+]
