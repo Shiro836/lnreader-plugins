@@ -197,3 +197,4 @@ class LLMTranslatorPlugin implements Plugin.PluginBase {
 }
 
 export default new LLMTranslatorPlugin();
+
