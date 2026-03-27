@@ -37,12 +37,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
 
-      - name: Publish Plugins (Main Repository)
-        if: github.repository == 'LNReader/lnreader-plugins'
+      - name: Publish Plugins
         run: npm run publish:plugins 2>> $GITHUB_STEP_SUMMARY
-        shell: bash
-
-      - name: Publish Plugins (Fork - All Branches)
-        if: github.repository != 'LNReader/lnreader-plugins'
-        run: npm run publish:plugins -- --all-branches
         shell: bash
